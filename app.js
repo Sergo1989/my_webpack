@@ -1,6 +1,6 @@
 
-document.write('asdsadsadsasda')
-console.log('app loaded')
+document.write('asdsadsadsasda');
+console.log('app loaded');
 module.exports = function (message) {
     debugger
 }
@@ -14,3 +14,9 @@ function test() {
 }
 
 test()
+
+
+function debug() {
+    console.log('debug')
+}
+debug();
